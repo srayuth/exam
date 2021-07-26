@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
+    'Zxing\\' => array($vendorDir . '/khanamiryan/qrcode-detector-decoder/lib'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
@@ -27,5 +28,6 @@ return array(
     'Faker\\' => array($vendorDir . '/fakerphp/faker/src/Faker'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
+    'Da\\QrCode\\' => array($vendorDir . '/2amigos/qrcode-library/src'),
     'CodeIgniter\\' => array($baseDir . '/system'),
 );

@@ -13,6 +13,7 @@ class ComposerStaticInita6009cf905ca076e46df7440ec481502
         '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        'a9ed0d27b5a698798a89181429f162c5' => __DIR__ . '/..' . '/khanamiryan/qrcode-detector-decoder/lib/Common/customFunctions.php',
         '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
     );
 
@@ -20,6 +21,10 @@ class ComposerStaticInita6009cf905ca076e46df7440ec481502
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'Z' => 
+        array (
+            'Zxing\\' => 6,
         ),
         'W' => 
         array (
@@ -61,6 +66,7 @@ class ComposerStaticInita6009cf905ca076e46df7440ec481502
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+            'Da\\QrCode\\' => 10,
         ),
         'C' => 
         array (
@@ -74,6 +80,10 @@ class ComposerStaticInita6009cf905ca076e46df7440ec481502
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'Zxing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/khanamiryan/qrcode-detector-decoder/lib',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -155,6 +165,10 @@ class ComposerStaticInita6009cf905ca076e46df7440ec481502
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'Da\\QrCode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/qrcode-library/src',
+        ),
         'CodeIgniter\\' => 
         array (
             0 => __DIR__ . '/../..' . '/system',
@@ -174,6 +188,13 @@ class ComposerStaticInita6009cf905ca076e46df7440ec481502
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/lib',
+            ),
+        ),
+        'B' => 
+        array (
+            'BaconQrCode' => 
+            array (
+                0 => __DIR__ . '/..' . '/bacon/bacon-qr-code/src',
             ),
         ),
     );

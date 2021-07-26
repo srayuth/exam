@@ -33,7 +33,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-
+$routes->get('/history', 'Home::historyView');
+$routes->post('/history', 'Home::historyList');
+$routes->post('/save', 'Home::save');
+$routes->get('/qrcode/(:any)', 'Home::qrcode/$1');
+$routes->get('/(:any)', 'Home::redirect/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
