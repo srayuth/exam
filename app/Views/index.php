@@ -362,15 +362,19 @@
 			methods: {
 				onSubmit() {
 					this.$v.$touch()
-					axios.post('/save', {url: this.url}).then(({data})=>{
-						console.log(data)
-						if(data.status){
-							this.url_short = data.url
-							this.url_qrcode = data.url_qrcode
-						}else{
-							alert('error')
-						}
-					})
+					if (this.$v.$invalid) {
+						alert('กรุณาเช็ค url')
+					} else {
+						axios.post('/save', {url: this.url}).then(({data})=>{
+							if(data.status){
+								this.url_short = data.url
+								this.url_qrcode = data.url_qrcode
+							}else{
+								alert('error')
+							}
+						})
+					}
+					
 				},
 				onReset() {
 					this.url = ""
